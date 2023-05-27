@@ -1,0 +1,2 @@
+button[data-start],button[data-stop]{cursor:pointer;background-color:#f0f0f0;border:2px solid #212121;border-radius:100px;margin:20px auto;padding:10px 20px;transition:box-shadow .3s,background-color .3s,color .3s,cursor .3s;display:block;box-shadow:2px 2px 4px rgba(0,0,0,.2)}button[data-start]:hover:not([disabled]),button[data-stop]:hover:not([disabled]){color:#fff;background-color:#e0e0e0;box-shadow:4px 4px 6px rgba(0,0,0,.3)}button[data-start]:disabled,button[data-stop]:disabled{opacity:.5;cursor:not-allowed}
+/*# sourceMappingURL=01-color-switcher.68ed9f1f.css.map */
