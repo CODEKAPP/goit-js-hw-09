@@ -1,0 +1,25 @@
+button[data-start],
+button[data-stop] {
+  margin: 20px auto;
+  display: block;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: 2px solid #212121;
+  border-radius: 100px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s, background-color 0.3s, color 0.3s, cursor 0.3s;
+}
+
+button[data-start]:hover:not([disabled]),
+button[data-stop]:hover:not([disabled]) {
+  background-color: #e0e0e0;
+  color: #fff;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+button[data-start]:disabled,
+button[data-stop]:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

@@ -1,0 +1,68 @@
+/* .timer-inputs label {
+  margin-right: 10px;
+  font-weight: bold;
+  color: #333;
+} */
+
+.timer {
+  display: flex;
+  justify-content: center;
+}
+
+.field {
+  text-align: center;
+  margin: 10px 10px;
+  width: 90px;
+  background-color: #e6e6e6;
+  padding: 10px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+
+  border: 2px solid #bebbbb;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.value {
+  display: block;
+  font-size: 24px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  color: #030303;
+}
+
+.label {
+  font-size: 14px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  color: #030303;
+}
+body input,
+body button {
+  display: flex;
+  margin: 20px auto;
+}
+button[data-start],
+input {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: 2px solid #212121;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s, background-color 0.3s, color 0.3s, cursor 0.3s;
+}
+
+button[data-start]:hover:not([disabled]) {
+  background-color: #e0e0e0;
+  color: #fff;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+button[data-start]:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
